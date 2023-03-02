@@ -8,7 +8,7 @@ import board
 from digitalio import DigitalInOut, Direction
 
 # LED setup for onboard LED
-led = DigitalInOut(board.GP13)
+led = DigitalInOut(board.LED)
 led.direction = Direction.OUTPUT
 
 while True:
